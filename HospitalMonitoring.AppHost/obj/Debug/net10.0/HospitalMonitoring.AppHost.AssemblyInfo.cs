@@ -15,15 +15,15 @@ using System.Reflection;
     "\\dcp.exe"))]
 [assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", ("C:\\Users\\LENOVO\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\13.4.6\\tools" +
     "\\ext\\"))]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.AppHost")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "HospitalMonitoring.AppHost.csproj")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", ("C:\\Users\\LENOVO\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\13.4.6\\tools\\Aspire." +
     "Dashboard.exe"))]
-[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.AppHost\\obj\\")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.AppHost\\obj\\")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("HospitalMonitoring.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0921dd63ab26c9c3b5c4832e07fc80affbaf4d79")]
 [assembly: System.Reflection.AssemblyProductAttribute("HospitalMonitoring.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HospitalMonitoring.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

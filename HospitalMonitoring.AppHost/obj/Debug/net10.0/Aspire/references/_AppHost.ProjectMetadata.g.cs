@@ -17,5 +17,5 @@ public class HospitalMonitoring_AppHost
     /// <summary>
     /// The path to the Aspire Host project.
     /// </summary>
-    public static string ProjectPath => """C:\Users\LENOVO\Desktop\robotica\proyecto1\HospitalMonitoring.AppHost""";
+    public static string ProjectPath => """C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.AppHost""";
 }

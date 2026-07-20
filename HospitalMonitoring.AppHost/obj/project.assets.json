@@ -4172,11 +4172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.AppHost\\HospitalMonitoring.AppHost.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.AppHost\\HospitalMonitoring.AppHost.csproj",
       "projectName": "HospitalMonitoring.AppHost",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.AppHost\\HospitalMonitoring.AppHost.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.AppHost\\HospitalMonitoring.AppHost.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.AppHost\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.AppHost\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"

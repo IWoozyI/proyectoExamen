@@ -6,6 +6,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.AddServiceDefaults();
 builder.AddRabbitMQClient("messaging");
 
+// 🔥 AGREGAR CORS ANTES DE builder.Build()
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+        // NOTA: No uses AllowCredentials con AllowAnyOrigin
+    });
+});
+
 builder.Services.AddSignalR();
 builder.Services.AddSingleton<INursingAlertNotifier, SignalRNursingAlertNotifier>();
 builder.Services.AddHostedService<MedicalAlertConsumerService>();
@@ -13,6 +25,9 @@ builder.Services.AddProblemDetails();
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
+
+// 🔥 USAR CORS ANTES DE MapHub
+app.UseCors("AllowAll");
 
 app.UseExceptionHandler();
 

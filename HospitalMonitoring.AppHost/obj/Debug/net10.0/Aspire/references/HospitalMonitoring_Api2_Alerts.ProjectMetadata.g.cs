@@ -15,7 +15,7 @@ public class HospitalMonitoring_Api2_Alerts : global::Aspire.Hosting.IProjectMet
     /// <summary>
     /// The path to the HospitalMonitoring_Api2_Alerts project.
     /// </summary>
-    public string ProjectPath => """C:\Users\LENOVO\Desktop\robotica\proyecto1\HospitalMonitoring.Api2.Alerts\HospitalMonitoring.Api2.Alerts.csproj""";
+    public string ProjectPath => """C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Api2.Alerts\HospitalMonitoring.Api2.Alerts.csproj""";
 
     /// <summary>
     /// Gets a value indicating whether building the project before running it should be suppressed.

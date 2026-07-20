@@ -1144,11 +1144,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Web\\HospitalMonitoring.Web.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Web\\HospitalMonitoring.Web.csproj",
       "projectName": "HospitalMonitoring.Web",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Web\\HospitalMonitoring.Web.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Web\\HospitalMonitoring.Web.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Web\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1164,11 +1164,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.ServiceDefaults\\HospitalMonitoring.ServiceDefaults.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.ServiceDefaults\\HospitalMonitoring.ServiceDefaults.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.ServiceDefaults\\HospitalMonitoring.ServiceDefaults.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.ServiceDefaults\\HospitalMonitoring.ServiceDefaults.csproj"
             },
-            "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Shared\\HospitalMonitoring.Shared.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Shared\\HospitalMonitoring.Shared.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Shared\\HospitalMonitoring.Shared.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Shared\\HospitalMonitoring.Shared.csproj"
             }
           }
         }
@@ -1643,7 +1643,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"OpenTelemetry.Api\" 1.13.1 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-g94r-2vxg-569j",
+      "message": "Package 'OpenTelemetry.Api' 1.13.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g94r-2vxg-569j",
       "libraryId": "OpenTelemetry.Api",
       "targetGraphs": [
         "net10.0"
@@ -1653,7 +1653,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"OpenTelemetry.Exporter.OpenTelemetryProtocol\" 1.13.1 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-4625-4j76-fww9",
+      "message": "Package 'OpenTelemetry.Exporter.OpenTelemetryProtocol' 1.13.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4625-4j76-fww9",
       "libraryId": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
       "targetGraphs": [
         "net10.0"
@@ -1663,7 +1663,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"OpenTelemetry.Exporter.OpenTelemetryProtocol\" 1.13.1 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-mr8r-92fq-pj8p",
+      "message": "Package 'OpenTelemetry.Exporter.OpenTelemetryProtocol' 1.13.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-mr8r-92fq-pj8p",
       "libraryId": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
       "targetGraphs": [
         "net10.0"
@@ -1673,7 +1673,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"OpenTelemetry.Exporter.OpenTelemetryProtocol\" 1.13.1 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-q834-8qmm-v933",
+      "message": "Package 'OpenTelemetry.Exporter.OpenTelemetryProtocol' 1.13.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-q834-8qmm-v933",
       "libraryId": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
       "targetGraphs": [
         "net10.0"

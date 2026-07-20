@@ -15,7 +15,7 @@ public class HospitalMonitoring_Web : global::Aspire.Hosting.IProjectMetadata
     /// <summary>
     /// The path to the HospitalMonitoring_Web project.
     /// </summary>
-    public string ProjectPath => """C:\Users\LENOVO\Desktop\robotica\proyecto1\HospitalMonitoring.Web\HospitalMonitoring.Web.csproj""";
+    public string ProjectPath => """C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Web\HospitalMonitoring.Web.csproj""";
 
     /// <summary>
     /// Gets a value indicating whether building the project before running it should be suppressed.

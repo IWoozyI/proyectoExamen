@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YcXTAQPJlNo=",
+  "dgSpecHash": "hgc6z4TwAlo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.AppHost\\HospitalMonitoring.AppHost.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.AppHost\\HospitalMonitoring.AppHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\13.4.6\\aspire.dashboard.sdk.win-x64.13.4.6.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\aspire.hosting\\13.4.6\\aspire.hosting.13.4.6.nupkg.sha512",

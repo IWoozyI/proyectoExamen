@@ -15,7 +15,7 @@ public class HospitalMonitoring_Client1_Simulator : global::Aspire.Hosting.IProj
     /// <summary>
     /// The path to the HospitalMonitoring_Client1_Simulator project.
     /// </summary>
-    public string ProjectPath => """C:\Users\LENOVO\Desktop\robotica\proyecto1\HospitalMonitoring.Client1.Simulator\HospitalMonitoring.Client1.Simulator.csproj""";
+    public string ProjectPath => """C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Client1.Simulator\HospitalMonitoring.Client1.Simulator.csproj""";
 
     /// <summary>
     /// Gets a value indicating whether building the project before running it should be suppressed.

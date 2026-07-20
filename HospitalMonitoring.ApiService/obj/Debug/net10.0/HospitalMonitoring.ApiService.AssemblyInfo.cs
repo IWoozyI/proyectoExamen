@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HospitalMonitoring.ApiService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0921dd63ab26c9c3b5c4832e07fc80affbaf4d79")]
 [assembly: System.Reflection.AssemblyProductAttribute("HospitalMonitoring.ApiService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HospitalMonitoring.ApiService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

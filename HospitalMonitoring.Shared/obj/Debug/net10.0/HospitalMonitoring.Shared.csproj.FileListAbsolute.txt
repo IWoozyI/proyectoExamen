@@ -9,3 +9,15 @@ C:\Users\LENOVO\Desktop\robotica\proyecto1\HospitalMonitoring.Shared\obj\Debug\n
 C:\Users\LENOVO\Desktop\robotica\proyecto1\HospitalMonitoring.Shared\obj\Debug\net10.0\refint\HospitalMonitoring.Shared.dll
 C:\Users\LENOVO\Desktop\robotica\proyecto1\HospitalMonitoring.Shared\obj\Debug\net10.0\HospitalMonitoring.Shared.pdb
 C:\Users\LENOVO\Desktop\robotica\proyecto1\HospitalMonitoring.Shared\obj\Debug\net10.0\ref\HospitalMonitoring.Shared.dll
+C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Shared\bin\Debug\net10.0\HospitalMonitoring.Shared.deps.json
+C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Shared\bin\Debug\net10.0\HospitalMonitoring.Shared.dll
+C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Shared\bin\Debug\net10.0\HospitalMonitoring.Shared.pdb
+C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Shared\obj\Debug\net10.0\HospitalMonitoring.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Shared\obj\Debug\net10.0\HospitalMonitoring.Shared.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Shared\obj\Debug\net10.0\HospitalMonitoring.Shared.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Shared\obj\Debug\net10.0\HospitalMonitoring.Shared.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Shared\obj\Debug\net10.0\HospitalMonitoring.Shared.sourcelink.json
+C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Shared\obj\Debug\net10.0\HospitalMonitoring.Shared.dll
+C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Shared\obj\Debug\net10.0\refint\HospitalMonitoring.Shared.dll
+C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Shared\obj\Debug\net10.0\HospitalMonitoring.Shared.pdb
+C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.Shared\obj\Debug\net10.0\ref\HospitalMonitoring.Shared.dll

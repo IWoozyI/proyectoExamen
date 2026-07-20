@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Shared\\HospitalMonitoring.Shared.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Shared\\HospitalMonitoring.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Shared\\HospitalMonitoring.Shared.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Shared\\HospitalMonitoring.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Shared\\HospitalMonitoring.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Shared\\HospitalMonitoring.Shared.csproj",
         "projectName": "HospitalMonitoring.Shared",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Shared\\HospitalMonitoring.Shared.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Shared\\HospitalMonitoring.Shared.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Shared\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"

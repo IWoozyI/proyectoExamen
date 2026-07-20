@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.ServiceDefaults\\HospitalMonitoring.ServiceDefaults.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.ServiceDefaults\\HospitalMonitoring.ServiceDefaults.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.ServiceDefaults\\HospitalMonitoring.ServiceDefaults.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.ServiceDefaults\\HospitalMonitoring.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.ServiceDefaults\\HospitalMonitoring.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.ServiceDefaults\\HospitalMonitoring.ServiceDefaults.csproj",
         "projectName": "HospitalMonitoring.ServiceDefaults",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.ServiceDefaults\\HospitalMonitoring.ServiceDefaults.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.ServiceDefaults\\HospitalMonitoring.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.ServiceDefaults\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"

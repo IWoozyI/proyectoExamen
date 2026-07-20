@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r/FnX/xCIxo=",
+  "dgSpecHash": "8i7xyOU0GFc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\aspire.rabbitmq.client\\13.4.6\\aspire.rabbitmq.client.13.4.6.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\aspnetcore.healthchecks.rabbitmq\\9.0.0\\aspnetcore.healthchecks.rabbitmq.9.0.0.nupkg.sha512",
@@ -36,10 +36,10 @@
     {
       "code": "NU1903",
       "level": "Warning",
-      "message": "El paquete \"Microsoft.OpenApi\" 2.0.0 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
+      "message": "Package 'Microsoft.OpenApi' 2.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
+      "filePath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
       "libraryId": "Microsoft.OpenApi",
       "targetGraphs": [
         "net10.0"
@@ -48,10 +48,10 @@
     {
       "code": "NU1902",
       "level": "Warning",
-      "message": "El paquete \"OpenTelemetry.Exporter.OpenTelemetryProtocol\" 1.13.1 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-4625-4j76-fww9",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
+      "message": "Package 'OpenTelemetry.Exporter.OpenTelemetryProtocol' 1.13.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4625-4j76-fww9",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
+      "filePath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
       "libraryId": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
       "targetGraphs": [
         "net10.0"
@@ -60,10 +60,10 @@
     {
       "code": "NU1902",
       "level": "Warning",
-      "message": "El paquete \"OpenTelemetry.Exporter.OpenTelemetryProtocol\" 1.13.1 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-mr8r-92fq-pj8p",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
+      "message": "Package 'OpenTelemetry.Exporter.OpenTelemetryProtocol' 1.13.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-mr8r-92fq-pj8p",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
+      "filePath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
       "libraryId": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
       "targetGraphs": [
         "net10.0"
@@ -72,10 +72,10 @@
     {
       "code": "NU1902",
       "level": "Warning",
-      "message": "El paquete \"OpenTelemetry.Exporter.OpenTelemetryProtocol\" 1.13.1 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-q834-8qmm-v933",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
+      "message": "Package 'OpenTelemetry.Exporter.OpenTelemetryProtocol' 1.13.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-q834-8qmm-v933",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyecto1\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
+      "filePath": "C:\\Users\\LENOVO\\Desktop\\robotica\\proyectoExamen\\HospitalMonitoring.Api2.Alerts\\HospitalMonitoring.Api2.Alerts.csproj",
       "libraryId": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
       "targetGraphs": [
         "net10.0"

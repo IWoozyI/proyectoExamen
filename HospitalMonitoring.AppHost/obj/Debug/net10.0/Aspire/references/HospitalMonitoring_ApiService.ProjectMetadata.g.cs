@@ -15,7 +15,7 @@ public class HospitalMonitoring_ApiService : global::Aspire.Hosting.IProjectMeta
     /// <summary>
     /// The path to the HospitalMonitoring_ApiService project.
     /// </summary>
-    public string ProjectPath => """C:\Users\LENOVO\Desktop\robotica\proyecto1\HospitalMonitoring.ApiService\HospitalMonitoring.ApiService.csproj""";
+    public string ProjectPath => """C:\Users\LENOVO\Desktop\robotica\proyectoExamen\HospitalMonitoring.ApiService\HospitalMonitoring.ApiService.csproj""";
 
     /// <summary>
     /// Gets a value indicating whether building the project before running it should be suppressed.

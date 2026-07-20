@@ -23,42 +23,88 @@ public sealed class NursingAlertService : IAsyncDisposable
     {
         if (_connection is not null)
         {
-            return;
+            _logger.LogInformation("Conexión ya existente. Estado: {State}", _connection.State);
+            
+            if (_connection.State == HubConnectionState.Disconnected)
+            {
+                await _connection.DisposeAsync();
+                _connection = null;
+            }
+            else
+            {
+                return;
+            }
         }
 
         var hubUrl = ResolveHubUrl();
+        _logger.LogInformation("Conectando a SignalR Hub: {HubUrl}", hubUrl);
+
         _connection = new HubConnectionBuilder()
-            .WithUrl(hubUrl)
-            .WithAutomaticReconnect()
+            .WithUrl(hubUrl, options =>
+            {
+                // 🔥 CONFIGURACIÓN DE TRANSPORTE
+                options.Transports = Microsoft.AspNetCore.Http.Connections.HttpTransports.All;
+                
+                // 🔥 DESACTIVAR SKIP NEGOTIATION PARA QUE FUNCIONE CON ALL TRANSPORTS
+                options.SkipNegotiation = false;
+            })
+            .WithAutomaticReconnect(new[] 
+            { 
+                TimeSpan.FromSeconds(0),
+                TimeSpan.FromSeconds(2),
+                TimeSpan.FromSeconds(5),
+                TimeSpan.FromSeconds(10),
+                TimeSpan.FromSeconds(30)
+            })
             .Build();
 
         _connection.On<NursingAlertNotification>("ReceiveAlert", alert =>
         {
-            _logger.LogInformation("Alerta recibida en estación de enfermería: {PatientId}", alert.PatientId);
+            _logger.LogInformation("✅ Alerta recibida: Paciente {PatientId}, Severidad {Severity}", 
+                alert.PatientId, alert.Severity);
             OnAlertReceived?.Invoke(alert);
         });
 
         _connection.Reconnecting += _ =>
         {
-            _logger.LogWarning("Reconectando con API 2...");
+            _logger.LogWarning("🔄 Reconectando con API 2...");
             return Task.CompletedTask;
         };
 
-        await _connection.StartAsync(cancellationToken);
-        _logger.LogInformation("Estación de enfermería conectada a {HubUrl}", hubUrl);
+        _connection.Reconnected += _ =>
+        {
+            _logger.LogInformation("✅ Reconectado exitosamente a API 2.");
+            return Task.CompletedTask;
+        };
+
+        _connection.Closed += _ =>
+        {
+            _logger.LogWarning("⚠️ Conexión cerrada con API 2.");
+            return Task.CompletedTask;
+        };
+
+        try
+        {
+            await _connection.StartAsync(cancellationToken);
+            _logger.LogInformation("✅ Estación de enfermería conectada a {HubUrl}", hubUrl);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "❌ Error al conectar con el Hub: {Message}", ex.Message);
+            throw;
+        }
     }
 
     private string ResolveHubUrl()
     {
-        var baseUrl = _configuration["services:api2-alerts:http:0"]
-            ?? _configuration["Services:api2-alerts:http:0"];
-
-        if (string.IsNullOrWhiteSpace(baseUrl))
+        var hubUrl = _configuration["SignalR:HubUrl"];
+        if (!string.IsNullOrEmpty(hubUrl))
         {
-            return "http://localhost:5000/hubs/alerts";
+            return hubUrl;
         }
 
-        return $"{baseUrl.TrimEnd('/')}/hubs/alerts";
+        // 🔥 USAR EL PUERTO CORRECTO DE api2-alerts
+        return "http://localhost:5002/hubs/alerts";
     }
 
     public async ValueTask DisposeAsync()
