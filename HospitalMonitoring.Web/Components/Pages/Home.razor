@@ -1,0 +1,98 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@implements IAsyncDisposable
+@inject NursingAlertService AlertService
+@inject IJSRuntime JS
+
+<PageTitle>Estación de Enfermería</PageTitle>
+
+<div class="nursing-station @(HasCriticalAlert ? "critical-flash" : "")">
+    <header class="station-header">
+        <div>
+            <h1>Estación de Enfermería</h1>
+            <p class="text-muted mb-0">Monitoreo de alertas clínicas en tiempo real</p>
+        </div>
+        <div class="connection-badge @(AlertService.IsConnected ? "connected" : "disconnected")">
+            @(AlertService.IsConnected ? "Conectado" : "Desconectado")
+        </div>
+    </header>
+
+    @if (_alerts.Count == 0)
+    {
+        <div class="empty-state">
+            <div class="pulse-icon">+</div>
+            <h3>Sin alertas activas</h3>
+            <p>Esperando eventos del sistema hospitalario...</p>
+        </div>
+    }
+    else
+    {
+        <div class="alert-grid">
+            @foreach (var alert in _alerts)
+            {
+                <article class="alert-card severity-@alert.Severity.ToString().ToLower()">
+                    <div class="alert-card-header">
+                        <span class="severity-label">@GetSeverityLabel(alert.Severity)</span>
+                        <time>@alert.ReceivedAtUtc.ToLocalTime().ToString("HH:mm:ss")</time>
+                    </div>
+                    <h2>Paciente @alert.PatientId</h2>
+                    <p class="anomaly-type">@alert.AnomalyType</p>
+                    <p>@alert.Description</p>
+                    <div class="vitals">
+                        <span>FC: <strong>@alert.HeartRateBpm bpm</strong></span>
+                        <span>SpO2: <strong>@alert.OxygenSaturation.ToString("F1")%</strong></span>
+                    </div>
+                </article>
+            }
+        </div>
+    }
+</div>
+
+<audio id="alertSound" preload="auto">
+    <source src="data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAESsAACJWAAACABAAZGF0YQAAAAA=" type="audio/wav" />
+</audio>
+
+@code {
+    private readonly List<NursingAlertNotification> _alerts = [];
+    private bool HasCriticalAlert => _alerts.Any(a => a.Severity == AlertSeverity.Critical);
+
+    protected override async Task OnInitializedAsync()
+    {
+        AlertService.OnAlertReceived += HandleAlert;
+        await AlertService.StartAsync();
+    }
+
+    private async void HandleAlert(NursingAlertNotification alert)
+    {
+        _alerts.Insert(0, alert);
+        if (_alerts.Count > 20)
+        {
+            _alerts.RemoveAt(_alerts.Count - 1);
+        }
+
+        await InvokeAsync(StateHasChanged);
+        await PlayAlertSoundAsync(alert.Severity);
+    }
+
+    private async Task PlayAlertSoundAsync(AlertSeverity severity)
+    {
+        if (severity >= AlertSeverity.High)
+        {
+            await JS.InvokeVoidAsync("playNursingAlert");
+        }
+    }
+
+    private static string GetSeverityLabel(AlertSeverity severity) => severity switch
+    {
+        AlertSeverity.Critical => "CRÍTICA",
+        AlertSeverity.High => "ALTA",
+        AlertSeverity.Medium => "MEDIA",
+        _ => "BAJA"
+    };
+
+    public async ValueTask DisposeAsync()
+    {
+        AlertService.OnAlertReceived -= HandleAlert;
+        await AlertService.DisposeAsync();
+    }
+}

@@ -1,0 +1,119 @@
+.nursing-station {
+    padding: 1.5rem;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+}
+
+.nursing-station.critical-flash {
+    animation: criticalPulse 1.2s ease-in-out infinite;
+}
+
+@keyframes criticalPulse {
+    0%, 100% { background-color: #f8fafc; }
+    50% { background-color: #fee2e2; }
+}
+
+.station-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.connection-badge {
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.connection-badge.connected {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.connection-badge.disconnected {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.pulse-icon {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    background: #dbeafe;
+    color: #1d4ed8;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.08); opacity: 0.85; }
+}
+
+.alert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1rem;
+}
+
+.alert-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 1.25rem;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    border-left: 6px solid #64748b;
+}
+
+.alert-card.severity-critical {
+    border-left-color: #dc2626;
+    background: #fef2f2;
+}
+
+.alert-card.severity-high {
+    border-left-color: #ea580c;
+}
+
+.alert-card.severity-medium {
+    border-left-color: #ca8a04;
+}
+
+.alert-card.severity-low {
+    border-left-color: #2563eb;
+}
+
+.alert-card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+}
+
+.severity-label {
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-size: 0.75rem;
+}
+
+.anomaly-type {
+    color: #475569;
+    font-weight: 600;
+}
+
+.vitals {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}

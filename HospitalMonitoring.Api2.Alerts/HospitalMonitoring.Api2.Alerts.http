@@ -1,0 +1,6 @@
+@HospitalMonitoring.Api2.Alerts_HostAddress = http://localhost:5002
+
+GET {{HospitalMonitoring.Api2.Alerts_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

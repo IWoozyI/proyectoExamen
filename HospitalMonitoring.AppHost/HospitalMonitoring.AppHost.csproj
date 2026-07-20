@@ -1,0 +1,23 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.4.6">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>3da01479-894b-42fe-abc0-f34c7994fc8d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HospitalMonitoring.ApiService\HospitalMonitoring.ApiService.csproj" />
+    <ProjectReference Include="..\HospitalMonitoring.Web\HospitalMonitoring.Web.csproj" />
+    <ProjectReference Include="..\HospitalMonitoring.Api2.Alerts\HospitalMonitoring.Api2.Alerts.csproj" />
+    <ProjectReference Include="..\HospitalMonitoring.Client1.Simulator\HospitalMonitoring.Client1.Simulator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.4.6" />
+    <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="13.4.6" />
+  </ItemGroup>
+
+</Project>
